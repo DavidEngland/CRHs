@@ -1,0 +1,287 @@
+/*
+Theme Name:       CRHs
+Theme URI:        http: //CherokeeRidgeHomes.com
+Description:      Child theme for real estate theme framework wpCasa
+Author:           <a href="http: //about.me/DavidEngland">David England</a>
+Author URI:       http: //about.me/DavidEngland
+Version:          1.1
+
+Tags:       black, blue, gray, white, light, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+
+Template:         wpcasa
+Template Version: 1.1
+
+License:      GNU General Public License v2.0
+License URI:      http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Import parent theme style.css
+================================================== */
+
+@import url("../wpcasa/style.css");
+@import url("css/font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body {
+  font-family:Roboto, "Droid Sans", "sans-serif";
+  font-size:14px;
+  color: #000;
+  background-color: #fff
+}
+
+h1, h2, h3, h4, h5, h6 {font-weight: 400 }
+
+h1 {
+  font-family:"Roboto Condensed", Roboto, "Droid Serif", "sans-serif";
+  font-size:2em;
+}
+h2 {
+  font-family:"Roboto Condensed", Roboto, "Droid Serif", "sans-serif";
+}
+.post-teaser h1 {
+  font-size:1.5em;
+}
+.title h2 {
+  width:100%;
+}
+.title h2.author {
+  float:none;
+  text-align:center;
+}
+#REIA .vcard div .vcard {
+  text-align:right;
+}
+.wpsight-label-lots {
+  background:#33a22a;
+}
+.wpsight-label-reduced {
+  background:#eee514;
+}
+.event h3 .title {
+  position:relative;
+  margin:0 0 20px;
+  padding:10px 0;
+  line-height:1;
+  border-bottom:1px dotted #b0b0b0;
+  font-size:1.5em;
+}
+.page-header h2 {
+  font-size:2em;
+}
+.page-header h3 {
+  font-size:1.3em;
+  font-weight:400;
+  line-height:normal;
+}
+
+#header-wrap {
+      background-position: center right !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+#header-wrap .container {
+  width: inherit;
+  margin: 0;
+  padding: 0
+}
+
+#header {
+  padding: 0
+}
+
+#logo-description {display: none}
+
+#breadcrumbs {
+  font-size:xx-small;
+}
+img#ihf-bio-img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px
+}
+.directions-location-map {
+  width: 100%;
+  height: 500px;
+  margin: 0 0 20px;
+}
+
+.google-route-map {
+    position: relative;
+    background-color: #e5e3df;
+    padding-bottom: 75%;
+    height: 480px;
+    overflow: hidden;
+     -webkit-transform: translateZ(0px);
+      -ms-transform: translateZ(0px); // IE9 only
+       -o-transform: translateZ(0px);
+          transform: translateZ(0px);
+}
+  
+.google-route-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.centre {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.carousel {
+  position:relative;
+}
+.img-circle {
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  border-radius:50%;
+}
+.hero-unit small {
+  font-size:.5em;
+  line-height:1em;
+}
+.email {
+  word-wrap:break-word;
+}
+.listing-location-map-note {
+  font-size:smaller;
+  line-height:1em;
+  padding-left:2em;
+  text-indent:-2em;
+}
+
+#em-wrapper {
+  width:inherit;
+}
+
+#em-wrapper .wrap {
+    width:inherit;
+}
+
+ul .thumbnails {text-align: center}
+
+.thumbnail > iframe {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+form#event-form .wrap {
+  width:inherit;
+}
+#sidebar > .title .title-widget h2 {
+  float:none;
+  text-align:center;
+}
+
+/**
+*  Google directions table
+**/
+
+.adp table {
+  display: table;
+  border-collapse: seperate;
+  border-spacing: 2px
+}
+
+.adp-placemark {
+  margin: 10px 0;
+  vertical-align: middle
+}
+.adp-text {
+  text-align: center !important}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+// Embeds responsive
+//
+// Credit: Nicolas Gallagher and SUIT CSS.
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.embed-responsive-item iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+// Modifier class for 16:9 aspect ratio
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+// Modifier class for 4:3 aspect ratio
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+.title-widget h2 {
+  text-align:center;
+}
+div.widget-inner h3.title {
+  text-align:center;
+  font-size:1.75em;
+  font-family:"Roboto Condensed", Roboto, "Droid Serif", "sans-serif";
+}
+div.widget-inner h4.title {
+  text-align:center;
+}
+.widget-call-to-action {
+  text-align:center;
+}
+.ie #top-wrap {
+  background:transparent url(../wpcasa/img/bg-dots.png);
+}
+div.wpsight-menu {
+  color:white;
+  font-weight:700;
+  font-family:"trebuchet MS", "trebuchet", "helvetica", "sans-serif";
+  font-size:12px;
+}
+div.wpsight-menu-top-left {
+  color:#000075;
+  font-weight:700;
+  font-family:"Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-size:12px;
+}
+#credit-wrap .container {
+  width:inherit;
+  margin:0;
+  padding:0;
+}
+#credit {
+  padding:0;
+}
+#the404 {
+  font-size:100px;
+}
