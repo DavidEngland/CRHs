@@ -7,6 +7,7 @@ to be used at [Cherokee Ridge Homes] (http://CherokeeRidgeHomes.com)
 * iHomeFinder's Optima Express
 
 ## TODO
+- [ ] sync functions from wpcasa-functions plugin with theme's functions
 - [ ] include LESS files
-- [ ] social icons
+- [x] social icons
 
