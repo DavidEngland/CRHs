@@ -7,6 +7,6 @@ to be used at [Cherokee Ridge Homes] (http://CherokeeRidgeHomes.com)
 * iHomeFinder's Optima Express
 
 ## TODO
-- [] include LESS files
-- [] social icons
+- [ ] include LESS files
+- [ ] social icons
 
