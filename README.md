@@ -6,3 +6,7 @@ to be used at [Cherokee Ridge Homes] (http://CherokeeRidgeHomes.com)
 * Events Manager
 * iHomeFinder's Optima Express
 
+## TODO
+- [] include LESS files
+- [] social icons
+
