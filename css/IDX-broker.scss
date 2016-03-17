@@ -1,0 +1,129 @@
+// ----
+// Sass (v3.4.21)
+// Compass (v1.0.3)
+// ----
+
+.IDX-resultCellContainer {
+  .IDX-resultsCell {
+    .IDX-cellInnerWrapper {
+      #IDX-results-row-content.IDX-row-content {
+        // content row
+        .IDX-resultsContentLeft {
+          .IDX-resultsPhoto {
+            a.IDX-resultsPhotoLink {
+              img.IDX-resultsPhotoImg {}
+            }
+          }
+          .IDX-resultsListingInfo {
+            .IDX-resultsPhotogallery {
+              .IDX-resultsPhotogallery {
+                a.IDX-resultsPhotoGalleryLink {
+                  span.IDX-galleryCount {}
+                }
+              }
+            }
+            .IDX-resultsLinks {}
+            .IDX-resultsMediaLinks.IDX-resultsVirtualTour {}
+            .IDX-resultsMediaLinks.IDX-resultsOpenHouse {}
+          }
+        }
+        .IDX-resultsContentTop {
+          .IDX-resultsAddress {
+            a.IDX-resultsAddressLink {
+              span.IDX-resultsAddressNumber {}
+              span.IDX-resultsAddressDirection {}
+              span.IDX-resultsAddressName {}
+              span.IDX-resultsEndAddressCommaOne {}
+              span.IDX-resultsAddressCity {}
+              span.IDX-resultsEndAddressCommaTwo {}
+              span.IDX-resultsAddressState {}
+              span.IDX-resultsAddressStateAbrv {}
+              span.IDX-resultsAddressZip {}
+            }
+          }
+          .IDX-resultsField-listingPrice.IDX-resultsField-price {
+            span.IDX-resultsLabel {}
+            span.IDX-resultsText {}
+          }
+          .IDX-resultsField-listingID {
+            span.IDX-resultsLabel {}
+            span.IDX-resultsText {}
+          }
+        }
+        .IDX-resultsContentMain {
+          .IDX-resultsField-propStatus {
+            span.IDX-resultsLabel {}
+            span.IDX-resultsText {}
+          }
+          .IDX-resultsField-bedrooms {
+            span.IDX-resultsLabel {}
+            span.IDX-resultsText {}
+          }
+          .IDX-resultsBaths.IDX-bathsFull {
+            .IDX-resultsField-totalBaths {
+              span.IDX-resultsLabel {}
+              span.IDX-resultsText {}
+            }
+            .IDX-resultsField-fullBaths {
+              span.IDX-resultsLabel {}
+              span.IDX-resultsText {}
+            }
+          }
+          .IDX-resultsField-sqFt {
+            span.IDX-resultsLabel {}
+            span.IDX-resultsText {}
+          }
+          .IDX-resultsField-acres {
+            span.IDX-resultsLabel {}
+            span.IDX-resultsText {}
+          }
+        }
+        .IDX-resultsContentRight {
+          .IDX-resultsDescription {}
+        }
+        br.IDX-clear {}
+      }
+      .IDX-hopoZoning {
+        label {}
+      }
+      .IDX-mlsContainer {
+        .IDX-detailsMLSLogo {
+          img {}
+        }
+        .IDX-detailsMLSCourtesy {}
+      }
+      .IDX-mapInfobox {
+        div {
+          div {
+            a {
+              img {}
+            }
+          }
+          div {
+            a {
+              #IDX-bmapAddress {
+                span.IDX-resultsAddressNumber {}
+                span.IDX-resultsAddressName {}
+                span.IDX-resultsAddressUnitNumber {}
+              }
+            }
+            #IDX-bmapPrice {
+              div {
+                span#IDX-priceLabel {
+                  span#IDX-priceNumber {}
+                }
+              }
+            }
+            #IDX-bmapBeds {}
+            #IDX-bmapBaths {}
+            #IDX-bmapListingID {}
+            #IDX-bmapLinks {
+              a {}
+              a {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
